@@ -50,3 +50,11 @@ code {
     transform: rotate(360deg);
   }
 }
+
+.line-through {
+  text-decoration: line-through;
+}
+
+li {
+  list-style-type: none;
+}
