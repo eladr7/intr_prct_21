@@ -54,8 +54,23 @@ code {
 .flex-col {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  /* justify-content: start; */
   align-items: center;
+}
+
+.searchable-dropdown {
+  display: flex;
+  flex-direction: column;
+  margin-left: 35%;
+}
+
+.searchable-dropdown-searchbox {
+  display: flex;
+  justify-content: start;
+}
+
+.searchable-dropdown-selection-item {
+  margin-right: 5%;
 }
 
 .w-30 {

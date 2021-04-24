@@ -4,14 +4,16 @@ import { Todos } from './components/Todos';
 import { InputDebounce } from './components/InputDebounce';
 import { InputSuggestions } from './components/InputSuggestions';
 import { BenAwad } from './components/BenAwad';
+import { InterviewTrippleQ } from './components/InterviewTrippleQ';
 
 function App() {
   return (
     <div className="App">
-      <InputSuggestions />
+      {/* <InputSuggestions />
       <InputDebounce />
       <Todos />
-      <BenAwad />
+      <BenAwad /> */}
+      <InterviewTrippleQ />
     </div>
   );
 }
