@@ -6,6 +6,7 @@ import { InputSuggestions } from './components/InputSuggestions';
 import { BenAwad } from './components/BenAwad';
 import { InterviewTrippleQ } from './components/InterviewTrippleQ';
 import { LodashDebounce } from './components/LodashDebounce';
+import { RealDebounce } from './components/RealDebounce';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Todos />
       <BenAwad /> */}
       <InterviewTrippleQ />
-      <LodashDebounce />
+      <RealDebounce />
     </div>
   );
 }
