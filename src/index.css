@@ -51,6 +51,24 @@ code {
   }
 }
 
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.left-50 {
+  /* position: absolute; */
+  /* left: 50%; */
+  margin-left: 33%;
+  /* transform: translate(-50%, -50%); */
+}
+
 .line-through {
   text-decoration: line-through;
 }
