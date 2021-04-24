@@ -91,3 +91,11 @@ code {
 li {
   list-style-type: none;
 }
+
+.invisi {
+  display: none;
+}
+
+.visi {
+  display: block;
+}
