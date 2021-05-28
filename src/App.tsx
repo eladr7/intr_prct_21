@@ -7,6 +7,7 @@ import { BenAwad } from './components/BenAwad';
 import { InterviewTrippleQ } from './components/InterviewTrippleQ';
 import { LodashDebounce } from './components/LodashDebounce';
 import { RealDebounce } from './components/RealDebounce';
+import { RealDebouncer2 } from './components/RealDebouncer2';
 
 function App() {
   return (
@@ -14,9 +15,10 @@ function App() {
       {/* <InputSuggestions />
       <InputDebounce />
       <Todos />
-      <BenAwad /> */}
+      <BenAwad />
       <InterviewTrippleQ />
-      <RealDebounce />
+      <RealDebounce /> */}
+      <RealDebouncer2 />
     </div>
   );
 }

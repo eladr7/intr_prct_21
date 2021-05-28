@@ -61,7 +61,9 @@ code {
 .searchable-dropdown {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin-left: 35%;
+  margin-right: 35%;
 }
 
 .searchable-dropdown-searchbox {
